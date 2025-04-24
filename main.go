@@ -12,6 +12,6 @@ func main() {
 	test := strings.Join(data, "\n")
 	databyte := []byte(test)
 	width := functions.GetTerminalWidth()
-
+	// untill colors
 	functions.TraitmentData(databyte, cf.StringArg, cf.OutputFile, cf.Align, cf.Color, width)
 }
